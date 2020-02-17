@@ -38,7 +38,7 @@ class District:
         self.Coord = Coord
 
     @classmethod
-    def getDistrict(self):git config --global user.name "John Doe"
+    def getDistrict(self):
         #A faire for each row (1) vérifier getlattitude, getlongitude du coupe réfléchir sur l'ordre > ou <
         for i in DistrictNewYork:
             #Il reste à faire chaque coordonnée une à une.
