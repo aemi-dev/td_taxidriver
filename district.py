@@ -46,7 +46,7 @@ class District:
                 self.Coord.getlattitude < i[1].get_min_x_min_y.getlattitude):
                 return i[0]
 
-
+#Il reste enormement de quartier à faire
 DistrictNewYork = [["Upper East Side"], [BoxCoordonnée(Coordonnée(-73.9731,40.7657),
                                         Coordonnée(-73.9591,40.7572),
                                         Coordonnée(-73.9559,40.7894),
