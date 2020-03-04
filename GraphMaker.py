@@ -49,8 +49,7 @@ kmeans_dropoff = KMeans(n_clusters=15, random_state=2, n_init = 10).fit(data_dro
 plt.scatter(x,y, marker='o',s=1,c=kmeans_pickup.labels_)
 
 with open('train.csv', 'r') as csvfile, \
-        open('output_1.csv', 'w+') as write_obj:
-    write_obj.truncate(0)
+        open('output_1.csv', 'w+',newline='') as write_obj:
     plots= csv.reader(csvfile, delimiter=',')
     writer = csv.writer(write_obj)
     writer.writerow(['pickup_datetime', 'trip_duration', 'passenger_count', 'pickup_longitude', 'pickup_latitude', 'dropoff_longitude', 'dropoff_latitude','district_pickup','district_dropoff'])
