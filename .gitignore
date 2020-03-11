@@ -1,4 +1,8 @@
 .DS_Store
 train.csv
 output*.csv
+XTrain.csv
+YTrain.csv
+XVal.csv
+YVal.csv
 ~*
